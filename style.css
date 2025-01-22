@@ -14,6 +14,15 @@ body {
 }
 
 /* add styles here */
+header {
+  background-image: url('./images/florence.jpg'); /* Replace with the actual filename */
+  background-size: cover; /* Ensures the image covers the entire header */
+  background-position: center; /* Centers the image */
+  background-repeat: no-repeat; /* Prevents the image from repeating */
+  width: 100%; /* Makes the header span the full width of the viewport */
+  min-height: 500px; /* Sets the minimum height of the header */
+}
+
 nav {
    background-image: url(images/logo.svg);
    background-size: 60px;
